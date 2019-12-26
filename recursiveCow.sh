@@ -2,4 +2,4 @@
 
 VAR=$(cowsay $1)
 cowsay $1 
-./prova.sh $(cowsay $VAR)
+./recursiveCow.sh $(cowsay $VAR)
